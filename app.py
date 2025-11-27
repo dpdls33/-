@@ -113,7 +113,7 @@ def convert(text):
 # ======================= Streamlit UI ========================= #
 
 st.title("영타 → 한글 자동 변환기")
-st.write("영어 자판으로 잘못 입력한 한글을 자동 변환합니다.")
+st.write("영어 자판으로 입력한 한글을 자동 변환합니다.")
 
 txt = st.text_area("영타 입력", placeholder="예: dkssud → 안녕")
 
