@@ -110,7 +110,7 @@ def convert(text):
 # ------------------ Streamlit UI ------------------ #
 
 st.title("영타 → 한글 자동 변환기")
-st.write("영타가가 실제 한글처럼 조합되는 변환기입니다.")
+st.write("영타가 실제 한글처럼 조합되는 변환기입니다.")
 
 txt = st.text_area("영타 입력", placeholder="예: dkssud → 안녕")
 
